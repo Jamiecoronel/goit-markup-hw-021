@@ -1,0 +1,127 @@
+:root{
+    --iris: #4D5AE5;
+    --ocean: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate:#434455;
+    --light-slate:#8E8F99;
+    --cornflower:#E7E9FC;
+    --cloud:#F4F4FD;
+    --grey:#2E2F42;
+    --white:#FFFFFF;
+    --dairy:#FCFCFC;
+}
+
+body{
+    background-color: var(--white);
+    color: var(--slate);
+    font-family: "Roboto", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.list {
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.logo {
+    color: var(--iris);
+    font-family: "Raleway" , "sans-serif";
+    font-size: 18px;
+    font-weight: 800;
+    line-height:1.17;
+    letter-spacing: 0.32px;
+}
+
+.logo-black {
+    color: var(--navy-blue);
+}
+
+.logo-white {
+    color: var(--white);
+}
+
+.navigation-menu .page{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing:0.32px;
+}
+
+.navigation-menu.page:hover
+.navigation-menu.page:focus,
+.contacts-menu.contact:hover,
+.contacts-menu.contact:focus {
+    color: var(--ocean);
+}
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07143;
+    letter-spacing:1.12px;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.button.order-service{
+    background-color: var(--iris);
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:0.64px;
+}
+
+.button.order-service:hover,
+.button.order-service:focus {
+    background-color: var(--ocean);
+}
+
+.footer {
+    background-color: var(--navy-blue);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+
+.footer-text {
+    color: var(--cloud);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.button.button-all {
+    border-radius: 4px;
+    display: flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.button.button-all:hover;
+.button.button-all:focus{
+    background-color: var(--OCEAN);
+}
